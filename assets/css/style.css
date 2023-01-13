@@ -135,6 +135,7 @@ of the page, allowing the 'aside' information bar to have space and be positione
 
 /* >>>>Beginning of smaller side section for the class "benefits" and it's contained elements.<<<<< */
 
+/* Establishes the housing block for the benefits/side information */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -146,16 +147,10 @@ of the page, allowing the 'aside' information bar to have space and be positione
     background-color: #2589bd;
 }
 
-/* Benefits Section Subheader Styling Consolidated */
+/* Benefits Subsections Styling Consolidated */
 .benefits article > * {
     margin-bottom: 32px;
     color: #ffffff;
-    text-align: center;
-}
-
-/* Benefits Section - Description Styling Consolidated */
-.benefits h3 > * {
-    margin-bottom: 10px;
     text-align: center;
 }
 
