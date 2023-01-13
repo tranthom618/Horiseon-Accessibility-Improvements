@@ -14,7 +14,7 @@ The project can be previewed or be used as a demo through opening the index.html
 
 Information regarding Horiseon's various services can be navigated through the header menu options. See image below:
 
-![Preview of navigation links](https://github.com/tranthom618/Horiseon-Accessibility-Improvements\assets\images\readme-instructional.png?raw=true "README Example")
+![Preview of navigation links](assets/images/readme-instructional.png?raw=true "README Example")
 
 The navigation links are available at the top right to view each section for more information.
 
