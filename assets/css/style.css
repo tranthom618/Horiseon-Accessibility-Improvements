@@ -170,7 +170,7 @@ of the page, allowing the 'aside' information bar to have space and be positione
 
 /* >>>>Beginning of footer<<<<< */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -178,6 +178,6 @@ of the page, allowing the 'aside' information bar to have space and be positione
 }
 
 /* Creates a slightly larger message from Horiseon above the paragraph containing copyrights. */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
