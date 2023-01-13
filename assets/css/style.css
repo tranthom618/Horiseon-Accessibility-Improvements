@@ -1,0 +1,229 @@
+/* Universal selector settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets the foundation background colour of the whole site. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets styling for the 'header' section or the top bar section containing the logo and nav links. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Defines the overall styling of the Horiseon logo. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Turns the 'seo' part of the name Horiseon on the top left grey, to create a logo-like effect.*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Styling for the header (border/box area) */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Test if this is necessary? */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Styling and spacing between the navigation links at the top. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hyperlink styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+}
+
+/* Hero section refers to the main 'book cover' image. Usually the largest image or the centerpiece. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* >>>>Beginning of section for the class "content" and it's contained elements.<<<<< */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* CSS Styling for first element of the "content" class and visibly positioned as the top element. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* CSS Styling for second element of "content" and visibly positioned as the middle element. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Associated image styling for 'Online Reputation Management - Sets max height so the image looks like an interior section.*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* CSS Styling for third element of "content" and visibly positioned as the bottom section. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* All the h2 sections within content have the same properties. Removed excess code to consolidate. */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+/* >>>>Beginning of smaller side section for the class "benefits" and it's contained elements.<<<<< */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Lead Generation Subheader Styling */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Lead Generation Paragraph/Description Styling */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Lead Generation Image Styling */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Brand Awareness Subheader Styling */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Brand Awareness Paragraph/Description Styling */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Brand Awareness Image Styling */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Cost Management Subheader Styling */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Cost Management Paragraph/Description Styling */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Cost Management Image Styling */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+/* >>>>Beginning of footer<<<<< */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Creates a slightly larger message from Horiseon above the paragraph containing copyrights. */
+.footer h2 {
+    font-size: 20px;
+}
