@@ -7,11 +7,16 @@ various asset attributes, and improved general descriptions/naming.
 
 ## Installation
 
-The project can be previewed or be used as a demo through opening the index.html file in a web browser. The provided index.html and style.css files can also be exported into the official Horiseon Social Solution Services website. For the purposes of this current project being submitted, the web application will also be hosted on GitHub Pages (link provided: )
+The project can be previewed or be used as a demo through opening the index.html file in a web browser. The provided index.html and style.css files can also be exported into the official Horiseon Social Solution Services website. For the purposes of this current project being submitted, the web application will also be hosted on GitHub Pages (link provided: https://tranthom618.github.io/Horiseon-Accessibility-Improvements/)
+
 
 ## Usage
 
-Information regarding Horiseon's various services can be navigated through the header menu options. 
+Information regarding Horiseon's various services can be navigated through the header menu options. See image below:
+
+![Preview of navigation links](assets\images\README-instructional.png?raw=true "Optional Title")
+
+The navigation links are available at the top right to view each section for more information.
 
 ## Credits
 
