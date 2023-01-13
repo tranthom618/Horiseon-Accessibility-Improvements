@@ -1,13 +1,16 @@
+/* Universal selector settings */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the foundation background colour of the whole site. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets styling for the 'header' section or the top bar section containing the logo and nav links. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Defines the overall styling of the Horiseon logo. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Turns the 'seo' part of the name Horiseon on the top left grey, to create a logo-like effect.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for the header (border/box area) */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Test if this is necessary? */
 .header div ul {
     list-style-type: none;
 }
 
+/* Styling and spacing between the navigation links at the top. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Hyperlink styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph styling */
 p {
     font-size: 16px;
 }
 
+/* Hero section refers to the main 'book cover' image. Usually the largest image or the centerpiece. */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +69,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* >>>>Beginning of section for the class "content" and it's contained elements.<<<<< */
 
 .float-left {
     float: left;
@@ -75,6 +90,7 @@ p {
     margin-left: 20px;
 }
 
+/* CSS Styling for first element of the "content" class and visibly positioned as the top element. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,6 +100,12 @@ p {
     color: #ffffff;
 }
 
+/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* CSS Styling for second element of "content" and visibly positioned as the middle element. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,6 +115,12 @@ p {
     color: #ffffff;
 }
 
+/* Associated image styling for 'Online Reputation Management - Sets max height so the image looks like an interior section.*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* CSS Styling for third element of "content" and visibly positioned as the bottom section. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,18 +130,12 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section. */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* These 3 sections likely able to consolidate into one. Theory under .content h2? */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -129,6 +151,10 @@ p {
     font-size: 36px;
 }
 
+
+
+/* >>>>Beginning of smaller side section for the class "benefits" and it's contained elements.<<<<< */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -140,6 +166,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Is it possible all of these can be combined into a single class? Or 3 groups of .benefit h3 , img */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -187,6 +214,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+
+/* >>>>Beginning of footer<<<<< */
 
 .footer {
     padding: 30px;
