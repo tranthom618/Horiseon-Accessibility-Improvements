@@ -44,7 +44,7 @@ body {
     margin-left: 25px;
 }
 
-/* Hyperlink styling */
+/* Hyperlink styling (Navigation links) */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -89,8 +89,9 @@ of the page, allowing the 'aside' information bar to have space and be positione
     margin-left: 20px;
 }
 
-/* CSS Styling for first element of the "content" class and visibly positioned as the top element. */
-.search-engine-optimization {
+/* CSS Styling for articles of the "content" class. Consolidated excess code into one section since all properties
+were the same */
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -99,28 +100,8 @@ of the page, allowing the 'aside' information bar to have space and be positione
     color: #ffffff;
 }
 
-/* CSS Styling for second element of "content" and visibly positioned as the middle element. */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* CSS Styling for third element of "content" and visibly positioned as the bottom section. */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Associated image styling for each section - Sets max height so the image looks like an interior section. */
-/* Consolidated excess code into a single property setting */
+/* Associated image styling for each section - Sets max height so the image looks like an interior section. Consolidated 
+excess definitions for each content into a single property setting, as each image had the same sizing*/
 .content img {
     max-height: 200px;
 }
