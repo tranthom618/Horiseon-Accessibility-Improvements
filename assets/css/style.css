@@ -69,16 +69,20 @@ p {
 
 /* >>>>Beginning of section for the class "content" and it's contained elements.<<<<< */
 
+/* Unique styling to display certain sections with the image on the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Unique styling to display certain sections with the image on the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling and positioning the the main portion of the site. Mainly so it doesn't take up the whole width
+of the page, allowing the 'aside' information bar to have space and be positioned. */
 .content {
     width: 75%;
     display: inline-block;
