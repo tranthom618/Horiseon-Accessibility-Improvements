@@ -95,11 +95,6 @@ p {
     color: #ffffff;
 }
 
-/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section.*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
 /* CSS Styling for second element of "content" and visibly positioned as the middle element. */
 .online-reputation-management {
     margin-bottom: 20px;
@@ -108,11 +103,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-/* Associated image styling for 'Online Reputation Management - Sets max height so the image looks like an interior section.*/
-.online-reputation-management img {
-    max-height: 200px;
 }
 
 /* CSS Styling for third element of "content" and visibly positioned as the bottom section. */
@@ -125,8 +115,9 @@ p {
     color: #ffffff;
 }
 
-/* Associated image styling for 'Search Engine Optimization - Sets max height so the image looks like an interior section. */
-.social-media-marketing img {
+/* Associated image styling for each section - Sets max height so the image looks like an interior section. */
+/* Consolidated excess code into a single property setting */
+.content img {
     max-height: 200px;
 }
 
