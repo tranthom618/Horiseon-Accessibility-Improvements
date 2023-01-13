@@ -147,7 +147,7 @@ of the page, allowing the 'aside' information bar to have space and be positione
 }
 
 /* Benefits Section Subheader Styling Consolidated */
-.benefits div > * {
+.benefits article > * {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
@@ -176,8 +176,3 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-/* Creates a slightly larger message from Horiseon above the paragraph containing copyrights.
-footer h2 {
-    font-size: 20px;
-} */
