@@ -135,18 +135,8 @@ p {
     max-height: 200px;
 }
 
-/* These 3 sections likely able to consolidate into one. Theory under .content h2? */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* All the h2 sections within content have the same properties. Removed excess code to consolidate. */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
