@@ -30,7 +30,7 @@ body {
 }
 
 /* Styling for the header (border/box area) */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,13 +38,8 @@ body {
     font-size: 20px;
 }
 
-/* Test if this is necessary? */
-.header div ul {
-    list-style-type: none;
-}
-
 /* Styling and spacing between the navigation links at the top. */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
